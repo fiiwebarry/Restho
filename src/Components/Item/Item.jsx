@@ -28,16 +28,42 @@ const Item = () => {
             </div>
 
             <div className="container maper">
+                <div>
+                    <img src={image1} />
+                    <div className="tab">
+                        <h3>Soup with Egg</h3>
+                        <p>It is a long established fact that a reader will be distracted.</p>
+                    </div>
 
-                <img src={image1} />
-                <img src={image2} />
-                <img src={image3} />
+                </div>
+
+                <div>
+                    <img src={image2} />
+                    <div className="tab">
+                        <h3>Soup with Egg</h3>
+                        <p>It is a long established fact that a reader will be distracted.</p>
+                    </div>
+                </div>
+                <div>
+                    <div className="tab">
+                        <img src={image3} />
+                        <h3>Soup with Egg</h3>
+                        <p>It is a long established fact that a reader will be distracted.</p>
+                    </div>
+
+                </div>
+
             </div>
 
 
 
 
-        </section>)
+
+
+
+
+
+        </section >)
 
 }
 export default Item;
