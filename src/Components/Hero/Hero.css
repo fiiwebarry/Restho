@@ -19,7 +19,7 @@ span{
 .Hero-page-tab{
 
     background-color: rgba(3,7,10,255);
-    height: 210vh;
+    height: 120vh;
 }
 .flex{
     display: flex;
@@ -163,5 +163,20 @@ ul li{
    .menu-tab{
     width:100%;
    }
-
+   
+   .section-tab {
+    display: flex;
+    position: fixed;
+    background-color: #ffff;
+    border-color: #ffff;
+    box-shadow: black;
+    border-radius: 50px;
+    padding: 20px;
+    width: 100%; 
+    margin-left: 10px; 
+    z-index: 1000;
+}
+.layer-tab{
+    flex-direction: column 
+}
 }
