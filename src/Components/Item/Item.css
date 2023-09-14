@@ -1,10 +1,38 @@
 
+.container{
+    margin:0 auto;
+    width:90%;
+}
 .items-tab{
-
+    margin-top: 25px;
     background-image: url(/src/assets/Images/backgroundimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
 }
 
-
+.text-flex{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.Restho{
+    display: flex;
+    justify-content: center;
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #fff;
+}
+.Restho-tab{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.125rem;
+}
+.maper{
+    padding-top: 60px;
+}
 
 
 
