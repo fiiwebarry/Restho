@@ -1,0 +1,54 @@
+.container{
+    margin: 0 auto;
+    width:90%; 
+    
+}
+
+.grid{
+    display: flex;
+    gap:15px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.variety-tab{
+    background-color: #fff;
+}
+.padding-tab{
+    padding-top: 40px;
+    position: relative;
+
+}
+
+
+.variety-coll{
+   
+    padding: 21px;
+    width: 80%;
+    border: black;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.position{
+    position:absolute;
+    top:25px;
+    left:-50px;
+
+}
+.coll-txt{
+    font-size: 1.625rem;
+    font-weight: 700;
+    margin-left: 80px;
+}
+.coll-pa{
+    margin-left: 80px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:414px){
+
+
+    
+}

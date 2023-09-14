@@ -1,0 +1,167 @@
+.container{
+    margin: 0 auto;
+    width:80%;
+
+}
+.color{
+    color: white;
+}
+.Hero-text{
+    padding-top:20px;
+}
+.top-text{
+    color: white;
+}
+span{
+    color: rgba(191,148,68,255);
+}
+
+.Hero-page-tab{
+
+    background-color: rgba(3,7,10,255);
+    height: 210vh;
+}
+.flex{
+    display: flex;
+    justify-content:space-between
+}
+.flex-position{
+    display: flex;
+    gap:50px;
+}
+.flex-dis{
+    display: flex;
+    gap:15px;
+}
+
+.flex-text{
+    padding-top: 140px;
+    margin-left: 55px;
+    margin-bottom: 20px;
+    display: flex;
+    gap:10px;
+}
+.color-text{
+
+   color: rgba(191,148,68,255)!important; 
+
+}
+.section-tab{
+    display: flex; 
+    position:fixed;
+    background-color: #ffff;
+    border-color: #ffff;
+    box-shadow: black;
+    border-radius: 50px;
+    padding:20px;
+    width:80%;
+    margin-left:170px;
+    z-index: 1000;
+
+}
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.menu-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap:70px;
+
+}
+.reservebtn{
+    width:15%;
+    /* border-radius: 20px; */
+    padding: 15px;
+    background-color:rgba(191,148,68,255);
+    border-color:rgba(191,148,68,255);
+    color:#ffff;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border-radius: 50px;
+    border: 1px solid;
+    display: inline-block;
+    z-index: 2;
+    transition: all .3s ease;
+    position: relative;
+    overflow: hidden;
+}
+.text-into{
+    color:rgba(191,148,68,255);
+}
+.layer-tab{
+    display: flex;
+    margin-top: 150px;
+}
+.text-header{
+    font-size: 5rem;
+    font-weight: 700;
+    color:#ffff;
+    font-family: var(--font-cormorant);
+    line-height: 1.1;
+    margin-bottom: 35px;
+    width:850px;
+    margin-left: 55px;
+}
+.p-tag{
+    color: #ffff;
+    margin-left: 55px;
+    
+}
+.layer-tab{
+    width:100%;
+}
+.layer-two{
+    width:52%;
+}
+.layer-three{
+    /* transform: rotate(10deg);  */
+    position: relative;
+    width:29%;
+}
+.tab1{
+    position: absolute;
+    top:10px;
+    left:200px;
+
+}
+.tab2{
+    position: absolute;
+    top:160px;
+    left:380px;
+
+}
+.tab3{
+    position: absolute;
+    top:160px;
+    left:15px;
+
+}
+.tab4{
+    position: absolute;
+    top:310px;
+    left:150px;
+
+
+}
+.btn-more{
+   width:25%;
+   border-color: rgba(191,148,68,255); 
+   border-radius: 20px;
+   padding:15px;
+   background-color: rgba(3,7,10,255);
+   color:rgba(191,148,68,255);
+   margin-left: 55px;
+   margin-top: 40px;
+}
+
+@media screen and (max-width:414px){
+
+   .menu-tab{
+    width:100%;
+   }
+
+}
