@@ -105,6 +105,56 @@
 
 @media screen and (max-width:414px){
 
-
+    .flex-tab-tab {
+        flex-direction: column;
     
+}
+.layer-two-tab {
+     width: 100%; 
+}
+.flex-raw {
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 30px; 
+}
+.btn-more3 {
+    width: 50%;
+}
+.layer-three-tab img{
+    width:140px;
+    height:140px;
+}
+.tab5 {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+.tab6 {
+    position: absolute;
+    top: 110px;
+    left: 220px;
+}
+.tab7 {
+    position: absolute;
+    top: 110px;
+    left: 77px;
+}
+.tab8 {
+    position: absolute;
+    top: 200px;
+    left: 145px;
+}
+.flex-text2 {
+    padding-top: 290px;
+   
+}
+.intro-tabb {
+    width: 700px;
+    font-weight: 700;
+     font-size: 20px;
+}
+.text-into {
+    font-size: 27px;
+}
+
 }

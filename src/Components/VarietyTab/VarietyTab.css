@@ -49,6 +49,18 @@
 
 @media screen and (max-width:414px){
 
-
+    .grid {
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 20px;
+        margin-left:50px;
+    }
+    .variety-coll {
+        padding: 21px;
+        width: 100%;
+        border: black;
+        border: 1px solid;
+        border-radius: 10px;
+    }
     
 }

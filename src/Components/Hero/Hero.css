@@ -163,9 +163,25 @@ ul li{
    .menu-tab{
     width:100%;
    }
+   .flex-text{
+    gap:0px;
+   }
+   .flex {
+    flex-direction: column;
+    
+}
+.Hero-page-tab {
+    background-color: rgba(3,7,10,255);
+    height: 80vh;
+}
+.flex-position {
+    flex-direction: column;
+    gap: 0px;
+}
    
    .section-tab {
-    display: flex;
+    display: none;
+    /* display: flex;
     position: fixed;
     background-color: #ffff;
     border-color: #ffff;
@@ -174,9 +190,70 @@ ul li{
     padding: 20px;
     width: 100%; 
     margin-left: 10px; 
-    z-index: 1000;
+    z-index: 1000; */
 }
 .layer-tab{
     flex-direction: column 
 }
+.layer-two {
+    width: 100%;
+    margin-top: -300px;
+}
+
+.text-header {
+    font-size: 20px; 
+    font-weight: 200;
+    color: #ffff;
+    font-family: var(--font-cormorant);
+    line-height: 1.1;
+    margin-bottom: 35px;
+    /* width: 850px; */
+    margin-left: 5px;
+}
+.layer-two{
+    width:100%;
+}
+.text-into {
+    font-size: 20px;
+}
+.p-tag {
+    color: #ffff;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.btn-more {
+    width: 50%;
+    margin-left: -5px;
+}
+.layer-three img{
+    width:150px;
+    height: 150px;
+}
+
+.tab1{
+    position: absolute;
+    top:10px;
+    left:120px;
+
+}
+.tab2{
+    position: absolute;
+    top:100px;
+    left:200px;
+
+}
+.tab3{
+    position: absolute;
+    top:90px;
+    left:31px;
+
+}
+.tab4{
+    position: absolute;
+    top:190px;
+    left:110px;
+
+
+}
+
 }
