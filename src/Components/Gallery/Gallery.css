@@ -1,0 +1,24 @@
+.image-flex{
+    display: flex;
+    gap: 20px;
+}
+.Gallery{
+margin-top: 70px;
+}
+.image{
+    width:287px;
+    height:300px;
+}
+.text-intro4{
+    
+    font-size: 18px;
+    font-family: 'Jost', sans-serif; 
+    color:rgba(191,148,68,255);
+}
+.gallery-tab{
+    padding-top: 70px;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+
+}

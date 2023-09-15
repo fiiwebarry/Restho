@@ -5,6 +5,7 @@ import Item from "./Components/Item/Item";
 import './App.css'
 import VarietyTab from './Components/VarietyTab/VarietyTab'
 import Menu from './Components/Menu/Menu';
+import Gallery from './Components/Gallery/Gallery';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Item />
       <Menu />
+      <Gallery />
     </>
   )
 }
