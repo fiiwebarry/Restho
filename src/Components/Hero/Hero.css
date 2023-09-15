@@ -18,15 +18,16 @@
 .top-text{
     color: white;
     font-family: 'Jost', sans-serif;
+    margin-bottom: 20px;
 }
 span{
     color: rgba(191,148,68,255);
 }
 
 .Hero-page-tab{
-
+   position: relative;
     background-color: rgba(3,7,10,255);
-    height: 120vh;
+    min-height: 120vh;
 }
 .flex{
     display: flex;
