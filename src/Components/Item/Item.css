@@ -1,3 +1,7 @@
+/* font-family: 'Cormorant Garamond', serif; */
+/* font-family: 'Jost', sans-serif; */
+
+
 
 .container{
     margin:0 auto;
@@ -5,10 +9,10 @@
 }
 .items-tab{
     margin-top: 25px;
-    background-image: url(/src/assets/Images/backgroundimage.png);
+    background-image: linear-gradient(rgba(9,22,29,.8),rgba(9,22,29,.8)),url(/src/assets/Images/backgroundimage.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 170vh;
 }
 
 .text-flex{
@@ -23,22 +27,31 @@
     font-size: 3.75rem;
     font-weight: 700;
     color: #fff;
+    font-family: 'Cormorant Garamond', serif; 
 }
 .Restho-tab{
     display: flex;
     justify-content: center;
+    font-weight:400;
     color: #fff;
     font-size: 1.125rem;
+    font-family: 'Jost', sans-serif;
 }
 .maper{
     display: flex;
-    padding-top: 60px;
+    padding-top: 120px;
 }
 .mall-tab{
     display: flex;
 }
 .tab{
     color: #fff;
+}
+.tab h3{
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
+    margin-left: 80px;
+    margin-bottom: 10px
 }
 
 

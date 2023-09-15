@@ -1,3 +1,9 @@
+
+
+
+
+/* font-family: 'Cormorant Garamond', serif; */
+/* font-family: 'Jost', sans-serif; */
 .container{
     margin: 0 auto;
     width:80%;
@@ -11,6 +17,7 @@
 }
 .top-text{
     color: white;
+    font-family: 'Jost', sans-serif;
 }
 span{
     color: rgba(191,148,68,255);
@@ -105,10 +112,12 @@ ul li{
     margin-bottom: 35px;
     width:850px;
     margin-left: 55px;
+    font-family: 'Cormorant Garamond', serif;
 }
 .p-tag{
     color: #ffff;
     margin-left: 55px;
+    font-family: 'Jost', sans-serif;
     
 }
 .layer-tab{
@@ -156,6 +165,7 @@ ul li{
    color:rgba(191,148,68,255);
    margin-left: 55px;
    margin-top: 40px;
+   font-family: 'Jost', sans-serif;
 }
 
 @media screen and (max-width:414px){

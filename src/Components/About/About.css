@@ -1,3 +1,8 @@
+
+/* font-family: 'Cormorant Garamond', serif; */
+/* font-family: 'Jost', sans-serif; */
+
+
 .container {
     margin: 0 auto;
     width: 90%;
@@ -43,6 +48,7 @@
     width: 700px;
     font-weight: 700;
     font-size: 3.75rem;
+    font-family: 'Cormorant Garamond', serif; 
 }
 
 
@@ -51,6 +57,8 @@
     font-size: 1.125rem;
     padding-top: 10px;
     line-height: 30px;
+    color:#525b60;
+    font-family: 'Jost', sans-serif;
 }
 .btn-more3{
  width:25%;
@@ -61,6 +69,7 @@
    color:rgba(191,148,68,255);
    /* margin-left: 55px; */
    margin-top: 40px;
+   font-family: 'Jost', sans-serif;
 }
 .flex-text2{
     padding-top: 140px;
@@ -93,10 +102,13 @@
     margin-top: 5px;
     width:170px;
     line-height: 20px;
+    color:#525b60;
+    font-family: 'Jost', sans-serif;
 }
 .texter-tab{
     font-size: 1.563rem;
     font-weight: 700;
+    font-family: 'Cormorant Garamond', serif; 
 }
 .flexer{
     display: flex;

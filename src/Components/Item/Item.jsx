@@ -40,14 +40,14 @@ const Item = () => {
                 <div>
                     <img src={image2} />
                     <div className="tab">
-                        <h3>Soup with Egg</h3>
+                        <h3>Prawn Fried</h3>
                         <p>It is a long established fact that a reader will be distracted.</p>
                     </div>
                 </div>
                 <div>
                     <div className="tab">
                         <img src={image3} />
-                        <h3>Soup with Egg</h3>
+                        <h3>Prawn with Noodles</h3>
                         <p>It is a long established fact that a reader will be distracted.</p>
                     </div>
 
